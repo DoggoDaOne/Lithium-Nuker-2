@@ -13,8 +13,8 @@ There is no more support for this. This is going open-sourced, so you can do it 
 Feel free to submit pull requests
 
 ## Previews
-![Fullscreen](https://github.com/verlox/Lithium-Nuker-2/blob/master/Previews/preview.png)
-![Banning](https://github.com/verlox/Lithium-Nuker-2/blob/master/Previews/banning.gif)
+![Fullscreen](https://github.com/verlox/Lithium-Nuker-2/blob/old-ui/Previews/preview.png)
+![Banning](https://github.com/verlox/Lithium-Nuker-2/blob/old-ui/Previews/banning.gif)
 
 ## About
 This nuker is the fastest discord server nuker made in C#
