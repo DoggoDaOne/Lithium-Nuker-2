@@ -12,21 +12,31 @@ namespace LithiumNukerV2
     {
         public static bool Debug = false;
         
-        public static readonly string Logo = @"
-            ▒▒▒          ░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒      ▒░▒▒▒      ▒▒▒                                 ▒░░░▒
-          ▒▒██▒         ▒▒▒▒▒░▒███████████████████░▒▒▒▒▒▒▒████▒     ▒▒▒█▒       ▒▒▒     ▒▒     ▒ ▒      ▒████▒
-        ▒█████▒        ▒████▒   ▒▒▒▒▒█████▒▒       ▒▒░▒▒▒▒████▒    ▒████▒    ░▒▒░░▒   ▒░█▒   ▒░▒░▒      ▒████▒
-       ▒█████▒        ▒▒████▒      ░▒████▒▒      ▒░███▒▒▒█████▒   ▒▒████▒   ▒████▒   ▒██▒▒  ▒▒███▒▒    ▒████▒▒
-      ▒▒████▒         ▒████▒▒      ▒████░▒      ▒░████▒▒▒████▒    ▒████▒▒   ▒███▒  ▒▒███▒   ▒█████▒ ▒▒█████▒▒
-     ░▒████▒          ▒████▒      ▒▒████▒   ▒▒▒░█████▒▒▒████▒▒    ▒████▒  ▒▒███▒▒  ▒████▒   ▒█████▒▒██████▒▒
-     ▒░████▒         ░▒███▒       ▒███░▒   ▒▒▒░████████████▒▒▒▒  ▒▒███▒   ▒████▒  ▒█████▒  ▒░████████████▒▒
-     ▒████▒          ▒▒███▒      ▒░███▒▒      ▒████▒▒▒▒████▒▒▒   ▒▒██░▒   ▒███▒  ▒▒████▒   ▒███▒▒███▒▒███▒
-  ▒▒▒█████▒▒░░░▒░█░▒▒▒███▒       ▒▒██▒▒      ░▒███▒  ▒███▒▒      ▒███▒    ▒███▒ ▒▒████▒   ▒▒███▒▒▒█▒░▒██▒▒
- ░ ░▒█████████████░▒▒▒██▒▒       ▒███▒       ▒███▒▒  ▒███▒       ▒██▒▒    ▒░█████████▒▒   ▒██▒▒▒░▒▒▒▒▒█▒▒
-   ▒▒▒░░▒▒▒▒▒▒       ▒░▒▒        ▒░██▒       ▒██░▒   ▒██▒░       ▒░▒░       ▒░█████░▒     ▒█▒       ▒░▒▒
-                    ▒░▒          ▒▒█▒        ▒█▒▒   ▒░▒▒        ▒▒▒                                 ▒▒▒
-                                 ▒░▒▒       ▒▒▒     ▒▒░
-                                 ▒▒▒";
+        public static readonly string Logo = @"                                                                                                                                                                                                      
+DDDDDDDDDDDDD                                                                                       NNNNNNNN        NNNNNNNN                  kkkkkkkk                                                
+D::::::::::::DDD                                                                                    N:::::::N       N::::::N                  k::::::k                                                
+D:::::::::::::::DD                                                                                  N::::::::N      N::::::N                  k::::::k                                                
+DDD:::::DDDDD:::::D                                                                                 N:::::::::N     N::::::N                  k::::::k                                                
+  D:::::D    D:::::D    ooooooooooo      ggggggggg   ggggg   ggggggggg   ggggg   ooooooooooo        N::::::::::N    N::::::Nuuuuuu    uuuuuu   k:::::k    kkkkkkk eeeeeeeeeeee    rrrrr   rrrrrrrrr   
+  D:::::D     D:::::D oo:::::::::::oo   g:::::::::ggg::::g  g:::::::::ggg::::g oo:::::::::::oo      N:::::::::::N   N::::::Nu::::u    u::::u   k:::::k   k:::::kee::::::::::::ee  r::::rrr:::::::::r  
+  D:::::D     D:::::Do:::::::::::::::o g:::::::::::::::::g g:::::::::::::::::go:::::::::::::::o     N:::::::N::::N  N::::::Nu::::u    u::::u   k:::::k  k:::::ke::::::eeeee:::::eer:::::::::::::::::r 
+  D:::::D     D:::::Do:::::ooooo:::::og::::::ggggg::::::ggg::::::ggggg::::::ggo:::::ooooo:::::o     N::::::N N::::N N::::::Nu::::u    u::::u   k:::::k k:::::ke::::::e     e:::::err::::::rrrrr::::::r
+  D:::::D     D:::::Do::::o     o::::og:::::g     g:::::g g:::::g     g:::::g o::::o     o::::o     N::::::N  N::::N:::::::Nu::::u    u::::u   k::::::k:::::k e:::::::eeeee::::::e r:::::r     r:::::r
+  D:::::D     D:::::Do::::o     o::::og:::::g     g:::::g g:::::g     g:::::g o::::o     o::::o     N::::::N   N:::::::::::Nu::::u    u::::u   k:::::::::::k  e:::::::::::::::::e  r:::::r     rrrrrrr
+  D:::::D     D:::::Do::::o     o::::og:::::g     g:::::g g:::::g     g:::::g o::::o     o::::o     N::::::N    N::::::::::Nu::::u    u::::u   k:::::::::::k  e::::::eeeeeeeeeee   r:::::r            
+  D:::::D    D:::::D o::::o     o::::og::::::g    g:::::g g::::::g    g:::::g o::::o     o::::o     N::::::N     N:::::::::Nu:::::uuuu:::::u   k::::::k:::::k e:::::::e            r:::::r            
+DDD:::::DDDDD:::::D  o:::::ooooo:::::og:::::::ggggg:::::g g:::::::ggggg:::::g o:::::ooooo:::::o     N::::::N      N::::::::Nu:::::::::::::::uuk::::::k k:::::ke::::::::e           r:::::r            
+D:::::::::::::::DD   o:::::::::::::::o g::::::::::::::::g  g::::::::::::::::g o:::::::::::::::o     N::::::N       N:::::::N u:::::::::::::::uk::::::k  k:::::ke::::::::eeeeeeee   r:::::r            
+D::::::::::::DDD      oo:::::::::::oo   gg::::::::::::::g   gg::::::::::::::g  oo:::::::::::oo      N::::::N        N::::::N  uu::::::::uu:::uk::::::k   k:::::kee:::::::::::::e   r:::::r            
+DDDDDDDDDDDDD           ooooooooooo       gggggggg::::::g     gggggggg::::::g    ooooooooooo        NNNNNNNN         NNNNNNN    uuuuuuuu  uuuukkkkkkkk    kkkkkkk eeeeeeeeeeeeee   rrrrrrr            
+                                                  g:::::g             g:::::g                                                                                                                         
+                                      gggggg      g:::::g gggggg      g:::::g                                                                                                                         
+                                      g:::::gg   gg:::::g g:::::gg   gg:::::g                                                                                                                         
+                                       g::::::ggg:::::::g  g::::::ggg:::::::g                                                                                                                         
+                                        gg:::::::::::::g    gg:::::::::::::g                                                                                                                          
+                                          ggg::::::ggg        ggg::::::ggg                                                                                                                            
+                                             gggggg              gggggg                   
+           ";
         public static string Token;
         public static long? GuildId = null;
         public static int Threads = 40;
